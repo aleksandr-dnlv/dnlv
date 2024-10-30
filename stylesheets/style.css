@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Aeroport', sans-serif;
+}
+@font-face {
+    font-family: 'Aeroport';
+    src: url('fonts/aeroport.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.image-container {
+    position: relative;
+}
+
+.title{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: rgba(54, 54, 54, 1);
+    margin-left: 75px;
+    font-size: 92px; 
+    
+}
+.about{
+    font-size: 24px;
+    padding-top: 20px;
+    color: rgba(54, 54, 54, 1);
+    max-width: 600px; 
+    max-height: 200px; 
+
+}
+.phone{
+    position: absolute; 
+    top: 90%; 
+    left: 78%; 
+    transform: translate(-50%, -50%);
+    color: rgba(54, 54, 54, 1);
+    font-size: 86px; 
+    max-width: 665px;
+}
+.laptop{
+    margin-top: 50px;
+    max-width: max-content;
+    max-width: 665px;
+}
+.description{
+    font-size: 24px;
+    padding-top: 10%;
+}
+.gradient{
+    padding-top: 30%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%; 
+    max-height: 400px; 
+}
+.col{
+    font-size: 32px;
+    padding-top: 92px;
+    padding-left: 83px;
+    color: rgba(54, 54, 54, 1);
+    max-width: 500px; 
+    max-height: 200px; 
+}
+.col2{
+    max-width: 39%;
+    display: flex;
+    justify-content: right;
+}
+.line{
+    padding-top: 20px;
+}
+.word h1{
+    color: rgba(59, 59, 59, 1);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 90px;
+}
+.words{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.words h2{
+    display: flex;
+    margin-left: 48px;
+    color: rgba(54, 54, 54, 1);
+    font-size: 420px;
+}
+.text{
+    color: rgba(54, 54, 54, 1);
+    font-size: 64px;
+    padding-top: 46px;
+    text-align: center;
+    padding-right: 20px;
+}
+.laptop_usage{
+    padding-top: 48px;
+}
+.col3{
+
+    max-width: 40%;
+    
+}
+.col4{
+    font-size: 64px;
+    color: rgba(54, 54, 54, 1);
+    margin-left: 60px;
+}
+.col4_image{
+    max-width: 50%;
+}
+.slogan{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+.footer{
+    background-color: rgba(54, 54, 54, 1);
+    min-height: 400px;
+}
+.line_footer{
+    padding-top: 100px;
+}
+.columns{
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    justify-content: space-around;
+    text-align: center;
+    float: bottom;
+    align-items: end;
+    margin-top: 40px;
+    font-size: 48px;
+}
+
